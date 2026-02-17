@@ -12,6 +12,8 @@
             myclass mc = new myclass();
             Console.WriteLine("After object is creating");
             mc.display();
+            int gt = mc.GetHashCode();
+            Console.WriteLine("the address of object mc is : "+gt);
             Console.ReadLine();
 
         }
